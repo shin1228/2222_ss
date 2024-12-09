@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+package el-Campus{
+    usecase "課題提出" as f1
+    usecase "授業資料" as f2
+}
+:生徒: --> f1
+:生徒: <-- f2
+@enduml
